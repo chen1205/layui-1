@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/layui.css">
+    <link rel="stylesheet" href="./css/modules/index.css">
+</head>
+<body>
+<!--头部统计期-->
+<header>
+    <ul class="layui-nav" lay-filter="">
+        <li class="layui-nav-item layui-this"><a href="">质效考核</a></li>
+        <li class="layui-nav-item"><a href="">综合管理考核</a></li>
+        <li class="layui-nav-item"><a href="">大数据</a></li>
+    </ul>
+    <div class="tj">
+        <div class="tj1">
+            <span>统计期:</span>
+            <input type="text" class="layui-input" id="test1">
+        </div>
+        <div class="tj2">
+            <span>至:</span>
+            <input type="text" class="layui-input" id="test3">
+            <button class="layui-btn">查询</button>
+        </div>
+    </div>
+</header>
+<button class="layui-btn">导出报表</button>
+<!--报表部分-->
+<div class="baobiao">
+    <!--<table id="demo" lay-filter="test"></table>-->
+    <div class="table-1">
+        <table class="layui-table">
+            <tr>
+                <td rowspan="2">序号</td>
+                <td rowspan="2">指标类别</td>
+                <td rowspan="2">指标名称</td>
+                <td colspan="15">指标值</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="16">首次执行案件</td>
+                <td rowspan="2">实际执结率%</td>
+                <td>平均</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+            </tr>
+            <tr>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">实际执结率%</td>
+                <td>平均</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+            </tr>
+            <tr>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+            </tr>
+            <tr>
+                <td rowspan="2">3</td>
+                <td rowspan="2">实际执结率%</td>
+                <td>平均</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+            </tr>
+            <tr>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+            </tr>
+            <tr>
+                <td rowspan="2">4</td>
+                <td rowspan="2">实际执结率%</td>
+                <td>平均</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+            </tr>
+            <tr>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+            </tr>
+            <tr>
+                <td rowspan="2">5</td>
+                <td rowspan="2">实际执结率%</td>
+                <td>平均</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+            </tr>
+            <tr>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+            </tr>
+            <tr>
+                <td rowspan="2">6</td>
+                <td rowspan="2">实际执结率%</td>
+                <td>平均</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+            </tr>
+            <tr>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+            </tr>
+            <tr>
+                <td rowspan="2">7</td>
+                <td rowspan="2">实际执结率%</td>
+                <td>平均</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+            </tr>
+            <tr>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+            </tr>
+            <tr>
+                <td rowspan="2">8</td>
+                <td rowspan="2">实际执结率%</td>
+                <td>平均</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+            </tr>
+            <tr>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+            </tr>
+            <tr>
+                <td rowspan="2">9</td>
+                <td rowspan="6">恢复执行案件</td>
+                <td rowspan="2">实际执结率%</td>
+                <td>平均</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+            </tr>
+            <tr>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td rowspan="2">实际执结率%</td>
+                <td>平均</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+            </tr>
+            <tr>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+            </tr>
+            <tr>
+                <td rowspan="2">11</td>
+                <td rowspan="2">实际执结率%</td>
+                <td>平均</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+                <td>上街法院</td>
+            </tr>
+            <tr>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+                <td>34.56</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+<script src="lay/modules/jquery.js"></script>
+<script src="layui.js"></script>
+<script>
+    layui.use('element', function(){
+        var element = layui.element;
+
+    });
+    // 统计期实例
+    layui.use('laydate', function(){
+        var laydate = layui.laydate;
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#test1' //指定元素
+        });
+        laydate.render({
+            elem: '#test2' //指定元素
+        });
+        laydate.render({
+            elem: '#test3' //指定元素
+        });
+        laydate.render({
+            elem: '#test4' //指定元素
+        });
+    });
+    // 表格实例
+    layui.use('table', function(){
+        var table = layui.table;
+
+        //第一个实例
+    //     table.render({
+    //         elem: '#demo'
+    //         ,height: 315
+    //         ,url: '/demo/table/user/' //数据接口
+    //         ,page: true //开启分页
+    //         ,cols: [[ //表头
+    //             {field: 'id', title: 'ID', width:80, sort: true, fixed: 'left'}
+    //             ,{field: 'username', title: '用户名', width:80}
+    //             ,{field: 'sex', title: '性别', width:80, sort: true}
+    //             ,{field: 'city', title: '城市', width:80}
+    //             ,{field: 'sign', title: '签名', width: 177}
+    //             ,{field: 'experience', title: '积分', width: 80, sort: true}
+    //             ,{field: 'score', title: '评分', width: 80, sort: true}
+    //             ,{field: 'classify', title: '职业', width: 80}
+    //             ,{field: 'wealth', title: '财富', width: 135, sort: true}
+    //         ]]
+    //     });
+    //
+    });
+</script>
+</html>
